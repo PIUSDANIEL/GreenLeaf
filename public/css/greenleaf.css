@@ -1,0 +1,302 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+*{
+margin: 0;
+}
+
+.bigscreentext{
+font-family:'Corben',cursive 'Titan One' cursive;
+color:darkblue;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.btnprofile{
+font-family:'Corben',cursive 'Titan One' cursive;
+color:darkblue;
+padding: 4px;
+font-size: 20px;
+font-weight: bold;
+text-transform: lowercase;
+
+}
+
+.container-fluid{
+margin-top: 5%;
+}
+
+@media only screen
+
+and (max-device-width: 480px)
+{
+.ff{
+padding: 5px;
+color:#00dfff;
+font-weight: bold;
+
+}
+
+.btnprofile{
+padding: 5px;
+font-size: 15px;
+font-weight: bold;
+color:darkblue;
+text-transform: lowercase;
+}
+
+.btnx
+{
+width: 100px;
+}
+
+.container-fluid
+{
+margin-top: 17%;
+}
+
+}
+
+
+.font{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.round{
+border-radius: 10px;
+}
+
+.login{
+    margin-top: 100px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color:white;
+}
+
+.dropdown-menu{
+    background-color: rgb(197, 206, 206);
+}
+
+.medimage{
+    width: 65px;
+    height: 65px;
+
+}
+
+.medname{
+    font-family:system-ui, sans-serif;
+    font-weight: 1000;
+    color: blue;
+    font-size: small;
+}
+
+.medsp{
+    font-size: small;
+}
+
+.medoffi{
+    font-size: xx-small;
+}
+
+.fa-star{
+    font-size: xx-small;
+}
+
+.profilename{
+    font-family:system-ui, sans-serif;
+    font-size:larger;
+    font-weight: 500;
+    color: darkblue;
+}
+.sidebartext{
+    font-family:system-ui, sans-serif;
+    font-size :medium;
+    font-weight: 500;
+    color: darkblue;
+}
+
+
+.pacez{
+    z-index: 1;
+}
+
+.btnedit{
+
+font-size: 15px;
+font-weight: bold;
+color:darkblue;
+text-transform: lowercase;
+}
+
+.scroll{
+    overflow-y:scroll ;
+    height: 200px;
+}
+
+.check {
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+
+    line-height: 1.1;
+  }
+
+.check {
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+  }
+
+  .registercheck {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+
+    /* Not removed via appearance */
+    margin: 0;
+  }
+
+  .registercheck {
+    appearance: none;
+
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+  }
+
+
+
+  .registercheck {
+    /* ...existing styles */
+
+    display: grid;
+    place-content: center;
+  }
+
+  .registercheck::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+  }
+
+
+  .registercheck:checked::before {
+    transform: scale(1);
+  }
+
+  .registercheck::before {
+    /* ...existing styles */
+
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+  }
+
+  .registercheck::before {
+    /* ...existing styles */
+
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  }
+
+.specialty_image{
+    box-shadow: 0 4px #00dfff;
+}
+
+@media(max-width:480px){
+#nav-bigscreen{
+    display: none;
+}
+
+.specialist-pop{
+    width: 70px;
+    height:70px;
+}
+
+}
+
+
+@media(min-width:480px){
+    #nav-smallscreen{
+        display: none;
+    }
+
+    .specialist-pop{
+        width: 100px;
+        height:100px;
+    }
+}
+
+
+.dashbordhome{
+    font-family:'Corben',cursive 'Titan One' cursive;
+color:darkblue;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.specialistmodal{
+    box-shadow: 0 15px  #00ddffc2;
+
+}
+
+.specialty{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* rating */
+.rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #b4afaf;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+
+
+.patient-experience input{
+    display:none ;
+}
+
+.reviewmodal{
+    box-shadow: 0 5px  #00ddffc2;
+
+}
+
